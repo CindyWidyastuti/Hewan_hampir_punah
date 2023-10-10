@@ -1,0 +1,103 @@
+/* Reset beberapa gaya default */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya dasar */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7D7C7C;
+}
+
+header {
+    background-color: #CCC8AA;
+    color: #7D7C7C;
+    text-align: center;
+    padding: 20px 0;
+    margin left: 350px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav ul {
+    margin-top: 90px;
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+main {
+
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.animal {
+    margin-bottom: 20px;
+}
+
+.animal img {
+    max-width: 100%;
+    height: 400px;
+    width:800px ;
+}
+
+.animal h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.animal p {
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+marquee{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    margin-top: 125px;
+    color: whit;
+    background-color: #191717;
+    font-size: 15px;
+}
